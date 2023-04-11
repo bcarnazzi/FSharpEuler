@@ -11,6 +11,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "eulerlib", "eulerlib\eulerl
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "pr003", "pr003\pr003.fsproj", "{00B9DCE6-E80E-45DC-A89B-A95520D4D553}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "pr004", "pr004\pr004.fsproj", "{99D083E2-698B-42A3-85DF-FB70C5E2A041}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{00B9DCE6-E80E-45DC-A89B-A95520D4D553}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00B9DCE6-E80E-45DC-A89B-A95520D4D553}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00B9DCE6-E80E-45DC-A89B-A95520D4D553}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99D083E2-698B-42A3-85DF-FB70C5E2A041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99D083E2-698B-42A3-85DF-FB70C5E2A041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99D083E2-698B-42A3-85DF-FB70C5E2A041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99D083E2-698B-42A3-85DF-FB70C5E2A041}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
