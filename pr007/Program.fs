@@ -1,7 +1,6 @@
 ﻿module pr007
 
-let solve n =
-    eulerlib.primeSeq |> Seq.item n
+let solve n = eulerlib.primeSeq |> Seq.item n
 
 [<EntryPoint>]
 let main _ =
