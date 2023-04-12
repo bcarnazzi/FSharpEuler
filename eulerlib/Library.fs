@@ -53,3 +53,8 @@ let isPalindromic (n: bigint) : bool =
 let rec gcd (a: bigint) (b: bigint) : bigint = if b = 0I then a else gcd b (a % b)
 
 let lcm (a: bigint) (b: bigint) : bigint = a * b / gcd a b
+
+let readDataAsArray (fileName: string) =
+    System.IO.File.ReadLines(fileName)
+    |> Seq.map (fun line -> line.Split ' ' |> Array.map int)
+    |> Array.ofSeq
