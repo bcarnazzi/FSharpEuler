@@ -56,5 +56,5 @@ let lcm (a: bigint) (b: bigint) : bigint = a * b / gcd a b
 
 let readDataAsArray (fileName: string) =
     System.IO.File.ReadLines(fileName)
-    |> Seq.map (fun line -> line.Split ' ' |> Array.map int)
+    |> Seq.map (fun line -> line.Split ' ' |> Array.map System.Numerics.BigInteger.Parse)
     |> Array.ofSeq
